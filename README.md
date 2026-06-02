@@ -50,13 +50,13 @@ PDMR has two stages:
 
 ### Coronal View
 
-<video src="Fig/video-coronal.mp4" controls muted loop playsinline width="100%"></video>
+![Coronal dynamic visualization](Fig/video-coronal.gif)
 
 ### Sagittal View
 
-<video src="Fig/video-sagittal.mp4" controls muted loop playsinline width="100%"></video>
+![Sagittal dynamic visualization](Fig/video-sagittal.gif)
 
-> If the videos do not render, open them directly: [coronal](Fig/video-coronal.mp4), [sagittal](Fig/video-sagittal.mp4).
+> GIFs are generated from the original videos: [coronal MP4](Fig/video-coronal.mp4), [sagittal MP4](Fig/video-sagittal.mp4).
 <!-- --- -->
 
 ## Results
