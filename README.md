@@ -1,6 +1,8 @@
-# PDMR
+<!-- # PDMR -->
+<div align="center">
 
-### Prospective Dynamic 3D MRI Reconstruction via Latent-Space Motion Tracking from Single Measurement
+
+## Prospective Dynamic 3D MRI Reconstruction via Latent-Space Motion Tracking from Single Measurement
 
 **CVPR 2026** | [Paper PDF](Prospective_Recon.pdf)
 
@@ -8,8 +10,8 @@ This is the official project page of our work **"Prospective Dynamic 3D MRI Reco
 
 <p>
   <a href="https://maopaom.github.io/">Lixuan Chen</a><sup>1</sup>&nbsp;&nbsp;
-  <a href="https://liyueshen.engin.umich.edu/people/">Zhongnan Liu</a><sup>1</sup>&nbsp;&nbsp;
-  <a href="https://bme.umich.edu/people/hamilton-jesse/">Jesse Hamilton</a><sup>1</sup>&nbsp;&nbsp;
+  <a href="https://znanliu.github.io/">Zhongnan Liu</a><sup>1</sup>&nbsp;&nbsp;
+  <a href="https://experts.umich.edu/6748-jesse-hamilton">Jesse Hamilton</a><sup>1</sup>&nbsp;&nbsp;
   <a href="https://medschool.umich.edu/profile/4905/james-m-balter">James M. Balter</a><sup>1</sup>&nbsp;&nbsp;
   <br>
   <a href="https://jjparkcv.github.io/">Jeong Joon Park</a><sup>1✉️</sup>&nbsp;&nbsp;
@@ -20,7 +22,8 @@ This is the official project page of our work **"Prospective Dynamic 3D MRI Reco
   <sup>1</sup>University of Michigan
 </p>
 
----
+<!-- --- -->
+</div>
 
 ## Overview
 
@@ -30,7 +33,7 @@ Prospective reconstruction is crucial for clinical applications such as MRI-guid
 
 ![Teaser](Fig/teaser_demo.png)
 
----
+<!-- --- -->
 
 ## Method
 
@@ -41,7 +44,20 @@ PDMR has two stages:
 
 ![Pipeline](Fig/pipeline-v3.png)
 
----
+<!-- --- -->
+
+## Dynamic Visualizations
+
+### Coronal View
+
+<video src="Fig/video-coronal.mp4" controls muted loop playsinline width="100%"></video>
+
+### Sagittal View
+
+<video src="Fig/video-sagittal.mp4" controls muted loop playsinline width="100%"></video>
+
+> If the videos do not render, open them directly: [coronal](Fig/video-coronal.mp4), [sagittal](Fig/video-sagittal.mp4).
+<!-- --- -->
 
 ## Results
 
@@ -63,22 +79,8 @@ PDMR achieves strong reconstruction fidelity with fast latent-space adaptation.
 
 ![Inference time](Fig/inference_time.png)
 
----
 
-## Dynamic Visualizations
-
-### Coronal View
-
-<video src="Fig/video-coronal.mp4" controls muted loop playsinline width="100%"></video>
-
-### Sagittal View
-
-<video src="Fig/video-sagittal.mp4" controls muted loop playsinline width="100%"></video>
-
-> If the videos do not render, open them directly: [coronal](Fig/video-coronal.mp4), [sagittal](Fig/video-sagittal.mp4).
-
-
----
+<!-- --- -->
 
 ## Citation
 
