@@ -48,13 +48,24 @@ PDMR has two stages:
 
 ## Dynamic Visualizations
 
-### Coronal View
-
-![Coronal dynamic visualization](Fig/video-coronal.gif)
-
-### Sagittal View
-
-![Sagittal dynamic visualization](Fig/video-sagittal.gif)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Coronal View</strong>
+    </td>
+    <td align="center" width="50%">
+      <strong>Sagittal View</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="Fig/video-coronal.gif" alt="Coronal dynamic visualization" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <img src="Fig/video-sagittal.gif" alt="Sagittal dynamic visualization" width="100%">
+    </td>
+  </tr>
+</table>
 
 > GIFs are generated from the original videos: [coronal MP4](Fig/video-coronal.mp4), [sagittal MP4](Fig/video-sagittal.mp4).
 <!-- --- -->
